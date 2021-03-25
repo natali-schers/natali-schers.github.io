@@ -1,2 +1,1 @@
-# natali-schers.github.io
-Site pessoal
+https://natali-schers.github.io/
