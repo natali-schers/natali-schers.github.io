@@ -1,0 +1,412 @@
+  
+/*Formatação Geral*/
+body{
+	font-family: Bellota, cursive;
+}
+
+h1,h2,h3{
+	margin: 0;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 1.9em;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+	.container{
+	width: 100%;
+	}
+
+/*Cabeçalho ou barra de navegação*/
+.logo img{
+	border-radius: 10px;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #00BFFF;
+	padding: 30px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+ nav ul li{
+ 	text-align: center;
+ 	width: 100%;
+ 	font-size: 1.5em;
+ 	padding: 2%;
+ }
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Header*/
+header{
+	background-image: url('../img/fundo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.4em;
+}
+
+.botao{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #00BFFF;
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+/*sobre*/
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #00BFFF;
+	color: #fff;
+}
+
+#sobre p{
+	text-align: justify;
+}
+
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+.foto img{
+	width: 50%;
+}
+
+.foto{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: right;
+	width: 50%;
+}
+
+/*hobby*/
+#hobby{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0  auto;
+}
+
+#hobby div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#hobby p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+
+#hobby img{
+	margin: 10px 0; 
+}
+
+#hobby h2{
+	font-size: 1.8em;
+	text-align: center;
+}
+
+/*competencias*/
+#competencias{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+#competencias h3,p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+#competencias p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
+#competencias a{
+	text-decoration: none;
+}
+
+#competencias img{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#competencias .comp p{
+	border-left: 2px solid orange;
+	border-right: 2px solid orange;
+	border-bottom:  2px solid orange;
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+/*site*/
+#site{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+#site h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.site{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+.site h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+
+.site img:hover{
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.site img{
+	border: 5px solid orange;
+}
+
+/*contato*/
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #00BFFF;
+	width: 100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+}
+
+#contato p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+}
+
+#contato a{
+	color: #fff;
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	width: 100%;
+	background-image: url('../img/fundo1.jpg');
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+/*Cabeçalho ou barra de navegação*/
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav ul{
+		flex-direction: row;
+		width: 70%
+	}
+
+	/*header*/
+	header{
+	height: 60vh;
+	justify-content: center;
+	}
+
+	/*sobre*/
+	#sobre{
+	flex-direction: row;	
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+	}
+
+	#sobre h2{
+	text-align: center;
+	width: 100%;
+	}
+
+	#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
+	}
+	
+	#sobre .texto{
+		margin-right: 60px;
+	}
+
+	/*hobby*/
+	#hobby{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#hobby h2{
+		text-align: center;
+		width: 100%;
+	}
+
+	#hobby div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	/*competencias*/
+	#competencias{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#competencias h2{
+		width: 100%;
+		text-align: center;
+	}
+
+	#competencias h3{
+		width: 100%;
+		text-align: center;
+	}
+
+	#competencias .comp{
+		width: 33.3333333333%;
+		text-align: center;
+	}
+
+	/*site*/
+	#site{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#site h2{
+		width: 100%;
+		text-align: center;
+	}
+
+	#site h3{
+		width: 100%;
+		text-align: center;
+	}
+
+	#site .site{
+		width: 33.3333333333%;
+		text-align: center;
+	}
+
+	#contato{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		max-height: 40vh;
+		width: 100%;
+	}
+
+	#contato h2,
+	#contato p {
+		width: 100%;
+		text-align: center;
+	}
+
+}
