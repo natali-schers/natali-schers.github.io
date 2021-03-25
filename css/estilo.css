@@ -1,0 +1,170 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.grade{
+	background-color: #FFE8C0;
+}
+
+.grade1{
+	background-image: linear-gradient(to top, #fff, #fff);
+}
+
+.botao{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #F68B28;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+#sobre{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#comp{
+	padding-left: 30px;
+}
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	
+	width: 100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #000;
+}
+
+#contato p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #000;
+	text-align: center;
+}
+
+#contato a{
+	color: #000;
+	text-align: center;
+}
+
+footer{
+	
+	width: 100%;
+	background-image: url('../img/fundo1.png');
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+}
+
+footer p{
+	padding-top: 40px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 576px){
+#comp{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+#comp div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+#comp h2{
+	font-size: 1.8em;
+	text-align: center;
+}
+
+#certificados{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0  auto;
+}
+
+#certificados div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+#certificados h2{
+	font-size: 1.8em;
+	text-align: center;
+}
+
+#portfolio{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0  auto;
+}
+
+#portfolio div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+#portfolio h2{
+	font-size: 1.8em;
+	text-align: center;
+}
+}
+
+@media screen and (min-width: 768px){
+
+	#contato h2{
+		padding-left: 80px;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	#contato p {
+		width: 100%;
+		text-align: center;
+	}
+
+	#contato{
+		padding-right: 90px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		max-height: 40vh;
+		width: 100%;
+	}
+}
