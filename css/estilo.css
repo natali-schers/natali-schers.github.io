@@ -35,7 +35,6 @@ html{
 }
 
 #contato h2{
-	margin-left: 20px;
 	margin-width: 20px;
 	margin-bottom: 20px;
 	font-size: 2em;
@@ -140,8 +139,7 @@ footer p{
 @media screen and (min-width: 768px){
 
 	#contato h2{
-		padding-left: 80px;
-		width: 100%;
+		padding-left: 80px;width: 100%;
 		text-align: center;
 
 	}
@@ -152,14 +150,12 @@ footer p{
 	}
 
 	#contato{
-		padding-right: 90px;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
 		max-width: 100%;
 		margin: 0 auto;
 		text-align: center;
-		max-height: 40vh;
 		width: 100%;
 	}
 }
