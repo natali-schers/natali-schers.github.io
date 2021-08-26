@@ -1,297 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!--Favicon-->
-    <link rel="icon" href="img/favicon.png">
+<head>
+	<!-- Meta Tags Obrigatórias-->
+	<meta name="author" content="Natali Schers">
+	<meta name="description" content="Acessibilidade digital e WCAG">
+	<meta name="keywords" content="Acessibilidade, digital, wcag, site, internet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta charset="utf-8">
 
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	<!-- Identidade da Página -->
+	<title>Acessibilidade e WCAG</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+	<!-- Navbar -->
 
-    <title>Natali Schers</title>
-  </head>
-  <body>
-    <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F68B28;">
-      <a class="navbar-brand" href="#">Natali Schers</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+	   <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="Cursor de computador" width="50px"></a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+	  		<span class="navbar-toggler-icon"></span>
+	  	</button>
 
-      <div class="collapse navbar-collapse  justify-content-end" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="sobremim" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Mim</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#sobremim">Um pouco sobre mim</a>
-              <a class="dropdown-item d-none d-md-block" href="#comp">Competências Socioemocionais</a>
-              <a class="dropdown-item" href="#certificados">Certificados</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfólio</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#video">Prototipagem</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Entre em Contato</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+	 	<div class="collapse navbar-collapse justify-content-center" id="conteudoNavbarSuportado">
+	    	<ul class="navbar-nav">
+	      	<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a></li>
+	      	<li class="nav-item"><a class="nav-link" href="#acessibilidade">Acessibilidade</a></li>
+	     		<li class="nav-item"><a class="nav-link" href="#wcag">WCAG</a></li>
+	     		<li class="nav-item"><a class="nav-link" href="#cadastro">Fazer cadastro</a></li>
+	    	</ul>
+	  	</div>
+	</nav>
 
-    <header>
-      <h1>Natali Schers</h1>
-      <a class="botao" href="https://www.canva.com/design/DAEZxDVAtLI/feCLlxzxAeBTxuyJWLOizw/view?utm_content=DAEZxDVAtLI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">Currículo</a>
-    </header>
+	<!-- Imagem Principal -->
+	<section id="focoimagem">
+    	<div class="focoimagem-container" data-aos="fade-up">
+     		<h1>Usabilidade e Design de Interação | Sistemas Web</h1>
+      	<h2>Feito por Natali Schers</h2>
+   	</div>
+   </section>
 
-    <main class="grade">
-      <div id="sobre" class="grade1">
-        <section id="sobremim">
-          <br>
-          <h2>Sobre Mim:</h2>
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-sm-6 col-md-3 col-lg-3 ">
-                <div class="p-4">
-                  <img class="img-fluid rounded-circle" src="img/natalischers.jpg" alt="Natali Schers"> 
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 col-lg-9">
-                <div class="p-4">
-                  <p>Meu nome é Natali Schers e eu tenho 16 anos. Atualmente estudo na ETEC Prof.ª Maria Cristina Medeiros, faço Informática para Internet Integrado ao Ensino Médio, e estou no meu terceiro ano do curso de inglês na Skill Idiomas.</p>
-                  <p>Originalidade, comprometimento, ética e cumprimento de prazos são muito importantes para mim. Adoro de trabalhar em grupo e produzir trabalhos inovadores e dinâmicos com diferentes tipos de pessoas.</p>
-                  <p>Gosto de fazer coisas que estimulam minha criatividade, como: pintar com aquarela, desenhar, construir esculturas de argila, criar ilustrações e animações, etc. Também passo muito tempo lendo, sendo os meus livros preferidos: Orgulho e Preconceito, A Seleção, O Menino da Lista de Schindler, A Caçadora de Dragões e Star Wars - Estrelas Perdidas.</p>
-                  <p>Gosto muito de desenvolver sites e editar de templates. Neste momento, estou aprendendo a fazer edição de vídeos e criar animações, pois gosto muito de trabalhar com conteúdo digital e quero explorar mais essa área.</p>
-                </div>    
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <div id="comp">
-          <h5>Competências Socioemocionais:</h5>
-          <h6><a href="docs/cmpt.pdf" target="_blank">Veja aqui</a> quais são todas competências pela BNCC</h6>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-4">
-                <div class="card">
-                  <img class="card-img-top" src="img/autogestao.jpg" alt="autogestão">
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-4">
-                <div class="card">
-                  <img class="card-img-top" src="img/abertura.jpg" alt="abertura ao novo">
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-4">
-                <div class="card">
-                  <img class="card-img-top" src="img/amabilidade.jpg" alt="amabilidade">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  	<!-- Conteúdo -->
+  	<section id="acessibilidade">
+  		<h1>Acessibilidade</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-md-9">
+					<p>A acessibilidade digital engloba uma série de ações que possibilitam que pessoas com incapacidades percebam, entendam, intejaram e naveguem pela internet sem dificuldades. Implementar a acessibilidade em seu site garante que diferentes grupos de indivíduos, independente de suas dificuldades, tenham acesso aos conteúdos e serviços disponíveis em sua plataforma. Porém, apesar de sua importância, estima-se que apenas 2% dos sites são acessíveis no Brasil.</p>
+					<p>Para que fosse possível tornar a internet descomplicada e acessível, foram desenvolvidas as Diretrizes de Acessibilidade para Conteúdo Web (explicadas logo abaixo) para criar um padrão que atenda a necessidade das pessoas com deficiência. Contudo, muitos designers, produtores de conteúdo e desenvolvedores ainda não consideram os deficientes na criação de seus projetos.</p>
+				</div>
+				<div class="col-sm col-md-3">
+					<img class="img-fluid" src="img/img1.png" alt="Três pessoas conversando ao telefone"> 
+				</div>
+			</div>
+		</div>  
 
-        <br>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h2>Como promover a acessibilidade?</h2>
+					<ol>
+						<li><p>- Textos acessíveis: use frases curtas e diretas, vocabulário simples e em português, evite expressões metafóricas e não use x ou @ para indicar gênero neutro (pois isso pode confundir os softwares leitores de tela). Uma solução para este último problema é usar palavras sem gênero definido, ou seja, invés de usar aluno/aluna/alunx/alun@, opte por estudante.</p></li>
+						<li><p>- Imagens, gráficos e tabelas acessíveis: utilize o recurso "alt" para descrição da imagem ou coloque uma legenda abaixo da mesma, não utilize apenas cores para fazer distinção das informações (uma dica é usar testadores de contraste!) e procure oferecer outras formas de exibir o mesmo conteúdo.</p></li>
+						<li><p>- Vídeos acessíveis: coloque legendas, caixa com a tradução feita em libras e audiodescrição para descrever o que está acontecendo no vídeo.</p></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <div id="certificados">
-          <h5>Cursos que concluí:</h5>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-3">
-                <div class="card" style="height: 20rem;">
-                  <img class="card-img-top" src="img/conceitos.jpg" alt="certificado">
-                  <div class="card-body">
-                    <p class="card-text">Conceitos de responsividade e experiência do usuário</p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card" style="height: 20rem;">
-                  <img class="card-img-top" src="img/git.jpg" alt="certificado">
-                  <div class="card-body">
-                    <p class="card-text">Introdução ao Git e ao GitHub</p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card" style="height: 20rem;">
-                  <img class="card-img-top" src="img/logica.jpg" alt="certificado">
-                  <div class="card-body">
-                    <p class="card-text">Lógica de programação essencial</p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card" style="height: 20rem;">
-                  <img class="card-img-top" src="img/intro.jpg" alt="certificado">
-                  <div class="card-body">
-                    <p class="card-text">Introdução a criação de sites com HTML5 e CSS3</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+	<hr>
 
-        <br>
-        <hr>
-        <br>
+	<section id="wcag">
+  		<h1>WCAG</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-md-9">
+					<p>As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) são um conjunto de procedimentos que visam tornar a Web, suas aplicações e conteúdos mais acessíveis. Seguir essas recomendações ajuda pessoas com incapacidades e limitações a terem acesso aos serviços e conteúdos, possam utilizar e interagir sozinhas com sites e aplicativos, facilita sua experiência e contribui com a inclusão de deficientes na Web em geral.</p>
+					<p>A World Wide Web Consortium (W3C), um consórcio internacional com cerca de 450 membros (entre eles empresas, órgãos governamentais e organizações independentes), é quem estabelece, pública e atualiza os padrões web que devem ser seguidos na criação do conteúdo. A primeira versão do WCAG foi lançada em 1999, reformulada em 2008, publicada pela Organização Internacional de Normalização (ISO) em 2012 e reajustada em 2018.</p>
+				</div>
+				<div class="col-sm col-md-3">
+					<img class="img-fluid" src="img/img4.png" alt="Duas pessoas conversando"> 
+				</div>
+			</div>
+		</div>
 
-        <div id="portfolio">
-          <h2>Portfólio:</h2>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-3">
-                <div class="card">
-                  <a href="https://natali-schers.github.io/portfolio/" target="_blank"><img class="card-img-top" src="img/natis.JPG" alt="site pessoal da natali schers"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Site Pessoal</h5>
-                    <p class="card-text">Esta é a primeira versão do meu portfólio em forma de página para internet. Foi o primeiro site que criei e foi desenvolvido apenas com HTML e CSS.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card">
-                  <a href="https://natali-schers.github.io/revista%20digital%20arte%20nossa/" target="_blank"><img class="card-img-top" src="img/grupo.jpg" alt="site artenossa"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">ArteNossa</h5>
-                    <p class="card-text">Esta é uma revista digital desenvolvida em grupo, nomeada ArteNossa. A proposta desse site é falar um pouco sobre arte espanhola e trovadorismo.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card">
-                  <a href="https://natali-schers.github.io/cultura%20v%C3%A9dica/" target="_blank"><img class="card-img-top" src="img/yoga.JPG" alt="site cultura védica"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Cultura Védica</h5>
-                    <p class="card-text">Cultura Védica é um site sobre yoga e sua história, desenvolvido para uma atividade do componente Interfaces da Web II. Nele utilizei HTML, CSS e JavaScript.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-3">
-                <div class="card">
-                  <a href="http://desconstrucao.myartsonline.com/" target="_blank"><img class="card-img-top" src="img/revista.jpg" alt="site desconstrução da arte"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Desconstrução</h5>
-                    <p class="card-text">Esta é uma revista digital desenvolvida por mim, nomeada Desconstrução. A proposta desse site é falar um pouco sobre arte espanhola e trovadorismo.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <br>
-             <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="card">
-                  <a href="https://natali-schers.github.io/mulheres%20hist%C3%B3ricas/" target="_blank"><img class="card-img-top" src="img/mulheres.PNG" alt="site pessoal da natali schers"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Mulheres Históricas</h5>
-                    <p class="card-text">Mulheres Históricas é um dos primeiros sites que eu desenvolvi. Nele utilizei HTML, CSS e Bootstrap.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <div class="col-sm-12 col-md-6">
-                <div class="card">
-                  <a href="https://decoracoes.natis.com.br/" target="_blank"><img class="card-img-top" src="img/lojanatis.PNG" alt="site artenossa"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Decorações Natis</h5>
-                    <p class="card-text">Esta é uma loja virtual fictícia que estou desenvolvendo para o componente Gestão de Conteúdos Web II.</p>
-                    <p class="card-text"><small class="text-muted">Clique na imagem para acessar o site!</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h2>Princípios do WCAG:</h2>
+					<ol>
+						<li><p>- Perceptível: estima que os conteúdos possuam legendas, uma descrição alternativa ou sejam apresentados em mais de um formato de mídia para que os leitores de tela não encontrem dificuldades em interpretá-lo.</p></li>
+						<li><p>- Operável: preza que o site possa ser acessado sem dificuldades, que a programação esteja ajustada para permitir que a navegação seja feita pelo teclado e que a página esteja equilibrada (sem muitos anúncios e pop-ups, sem excesso de cores, muita iluminação, entre outros).</p></li>
+						<li><p>- Compreensível: este refere-se mais ao conteúdo textual da aplicação, realçando que o autor faça uma escolha adequada de fonte e tamanho da fonte, evite expressões/gírias que dificultem o entendimento do texto e crie um conteúdo objetivo e bem organizado.</p></li>
+						<li><p>- Robusto: estipula que a programação esteja adequada para funcionar corretamente nas diferentes tecnologias existentes e continuem funcionando à medida que elas evoluirem. Além disso, o conteúdo deve ser robusto o suficiente para ser interpretado sem problemas.</p></li>
+					</ol>
+				</div>
+			</div>
+		</div>
 
-        <br>
-        <hr>
-        <br>
-        
-        <div id="video">
-          <h2>Prototipagem Prática</h2>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <div class="card">
-                  <iframe  src="https://www.youtube.com/embed/m6yZqalEdJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <div class="card-body">
-                    <p class="card-text">Essa é uma atividade do componente Desenvolvimento Para Dispositivos Móveis (DDM), cuja proposta era elaborar um aplicativo de "rachar a conta" e criar exemplos de persona.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-3">
+					<img class="img-fluid" src="img/img3.png" alt="Pessoas se comunicando através de sites"> 
+				</div>
+				<div class="col-sm-12 col-md-9">
+					<h2>Critérios de sucesso:</h2>
+					<ol>
+						<li><p>- Nível A: não garante que seu site esteja altamente acessível, apenas que as barreiras mais significativas de acessibilidade foram ultrapassadas.</p></li>
+						<li><p>- Nível AA: afirma que seu site está bastante acessível para a maior parte das pessoas e está utilizando as tecnologias necessárias.</p></li>
+						<li><p>- Nível AAA: é um nível difícil de ser alcançado que visa garantir um nível de acessibilidade otimizado. Em alguns casos, é difícil estar em conformidade com todos os critérios necessários e por isso há poucos sites nesse nível.</p></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <br>
-        <hr>
-        <br>
+	<hr>
 
-        <section id="contato">
-          <h2>Para entrar em contato comigo:</h2>
-          <br>
-          <div>
-            <img src="img/linkedin.png" alt="linkedin">
-            <p><a href="https://www.linkedin.com/in/natali-schers-3ba86520b/" target="_blank">Natali Schers</a></p>
-          </div>
-          <div>
-            <img src="img/email.png" alt="email">
-            <p><a href="mailto:natalischers@gmail.com" target="_blank">natalischers@gmail.com</a></p>
-          </div>
-          <div>
-            <img src="img/github.png" alt="github">
-            <p><a href="https://github.com/natali-schers" target="_blank">natali-schers</a></p>
-          </div>                                                             
-          <div>
-            <img src="img/whatsapp.png" alt="whatsapp">
-            <p><a href="tel:11910477782" target="_blank">(11)91047-7782</a></p>
-          </div>
-        </section>
+	<!-- Contato -->
+	<section id="cadastro">
+		<h1>Cadastro</h1>
+		<form action="dados.php" method="POST">
+			<p><input type="text" name="nome" size="50" placeholder="Nome"><br><br>
+				<input type="text" name="sobrenome" size="50" placeholder="Sobrenome"><br><br>
+				<input type="int" name="idade" size="50" placeholder="Idade"><br><br>
+				<input type="text" name="email" size="50" placeholder="Email"><br><br>
+				<input type="text" name="necessidade" size="50" placeholder="Necessidade"><br><br>
+				<input type="submit" name="Cadastrar" class="btn btn-outline-secondary">
+				<a href="exibir.php" class="btn btn-outline-secondary">Cadastros</a>
+				<a href="editar.php" class="btn btn-outline-secondary">Editar</a>		
+		</form>
+	</section>
 
-      </div>
-    </main>
-
-    <footer>
+	<!-- Footer -->
+   <footer>
       <p>Desenvolvido por Natali Schers</p>
-    </footer>
+   </footer>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-  </body>
+   <!-- JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
 </html>
