@@ -10,6 +10,10 @@ html{
 	background-image: linear-gradient(to top, #fff, #fff);
 }
 
+.navbar {
+	background-color: #F68B28;
+}
+
 .botao{
 	color: #fff;
 	text-decoration: none;
@@ -26,19 +30,9 @@ html{
 	text-align: center;
 }
 
-#objetivos{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: justify;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#obj{
-	margin-top: 0.4em;
-	margin-bottom: 0.2em;
+.card-projetos {
+	width: 16rem; 
+	height: 26rem;
 }
 
 iframe{
@@ -55,7 +49,6 @@ iframe{
 }
 
 #contato h2{
-	margin-width: 20px;
 	margin-bottom: 20px;
 	font-size: 2em;
 	text-align: center;
@@ -88,138 +81,149 @@ footer p{
 	font-size: 1.2em;
 }
 
-@media screen and (max-width: 576px){
-#comp{
-	padding: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
+@media screen and (max-width: 767px){
+	#comp{
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
 
-#comp div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-
-#comp h2{
-	font-size: 1.8em;
-	text-align: center;
-}
-
-#objetivos{
-	padding: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
-
-#objetivos div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
+	#comp div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
 
 
-#objetivos h2{
-	font-size: 1.8em;
-	text-align: center;
-}
+	#comp h2{
+		font-size: 1.8em;
+		text-align: center;
+	}
 
-#certificados{
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	margin: 0  auto;
-}
+	#objetivos{
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
 
-#certificados div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-
-#certificados h2{
-	font-size: 1.8em;
-	text-align: center;
-}
-
-#portfolio{
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	margin: 0  auto;
-}
-
-#portfolio div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
+	#objetivos div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
 
 
-#portfolio h2{
-	font-size: 1.8em;
-	text-align: center;
-}
+	#objetivos h2{
+		font-size: 1.8em;
+		text-align: center;
+	}
 
-#video{
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	margin: 0  auto;
-}
+	#certificados{
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin: 0  auto;
+	}
 
-#video div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
+	#certificados div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
 
 
-#video h2{
-	font-size: 1.8em;
-	text-align: center;
-}
+	#certificados h2{
+		font-size: 1.8em;
+		text-align: center;
+	}
 
-iframe{
-	height: 100%;
-}
+	#portfolio{
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin: 0  auto;
+	}
+
+	#portfolio div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+
+	#portfolio h2{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	#video{
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin: 0  auto;
+	}
+
+	#video div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+
+	#video h2{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	iframe{
+		height: 100%;
+	}
 }
 
 @media screen and (min-width: 768px){
-#contato h2{
-	padding-left: 80px;width: 100%;
-	text-align: center;
+	#contato h2{
+		padding-left: 80px;width: 100%;
+		text-align: center;
+	}
+
+	#contato p {
+		width: 100%;
+		text-align: center;
+	}
+
+	#contato{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
 }
 
-#contato p {
-	width: 100%;
-	text-align: center;
-}
+@media (min-width: 767px) and (max-width: 1200px) {
+	.card-projetos {
+		width: auto;
+		height: 35rem;
+	}
 
-#contato{
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	max-width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	width: 100%;
-}
+	#contato a {
+		font-size: 15px;
+	}
 }
