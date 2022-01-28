@@ -35,9 +35,16 @@ html{
 	height: 26rem;
 }
 
-iframe{
-	width: 100%;
-	height: 626px;
+.prototipagem {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.prototipagem h5 {
+	margin-bottom: 13px;
 }
 
 #contato {
@@ -214,6 +221,11 @@ footer p{
 		margin: 0 auto;
 		text-align: center;
 		width: 100%;
+	}
+
+	iframe {
+		width: 684px;
+    	height: 385px;
 	}
 }
 
