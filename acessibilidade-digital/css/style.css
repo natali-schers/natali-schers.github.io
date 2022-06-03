@@ -52,16 +52,16 @@ header h1 {
 
 header a {
     margin-top: 20px;
-    border: 1px solid rgb(37, 37, 37);;
     border-radius: 70px !important;
-    background-color: #ffffff;
-    color: rgb(37, 37, 37);
-}
-
-header a:hover {
     color: #ffffff !important;
     border: 1px solid #ffffff;
     background-color: transparent; 
+}
+
+header a:hover {
+    border: 1px solid rgb(37, 37, 37);
+    background-color: #ffffff;
+    color: rgb(37, 37, 37);
 }
 
 /*Conteúdo principal*/
