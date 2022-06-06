@@ -61,7 +61,7 @@ header a {
 header a:hover {
     border: 1px solid #000000;
     background-color: #ffffff;
-    color: #000000;
+    color: #000000 !important;
 }
 
 /*Conteúdo principal*/
