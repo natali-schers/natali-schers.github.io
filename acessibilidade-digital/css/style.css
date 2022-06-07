@@ -103,6 +103,11 @@ hr {
     max-width: 85%;
 }
 
+.dinamica img {
+    border-radius: 7px;
+    max-width: 85%;
+}
+
 .alinhamento-img {
     display: flex;
     flex-direction: column;
