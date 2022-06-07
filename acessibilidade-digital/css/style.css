@@ -166,6 +166,10 @@ footer p {
         font-size: 1.8rem !important;
         text-align: center;
     }
+
+    .dinamica img:first-child {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 400px) {
