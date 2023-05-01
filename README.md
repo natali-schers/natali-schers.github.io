@@ -15,4 +15,4 @@ https://natali-schers.github.io/acessibilidade-digital/
 
 https://natali-schers.github.io/landing-page-1/
 
-https://natali-schers.github.io/landing-page-1/
+https://natali-schers.github.io/landing-page-2/
