@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Open+Sans:wght@300;400;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+
+.container .column {
+    width: calc(33.3% - 30px);
+    float: left;
+    padding: 0 0 20px;
+    margin: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #fcfcfc;
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.container .column:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    background: #68f788;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title .fa {
+    color: #fff;
+    font-size: 60px;
+}
+
+.title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price {
+    padding: 10px;
+}
+
+.price h4 {
+    margin: 0;
+    padding: 0;
+    color: #009688;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.price h4 span {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.option ul {
+    margin: 0;
+    padding: 0;
+}
+
+.option ul li {
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 300;
+}
+
+.option ul li:last-child {
+    border-bottom: none;
+}
+
+.option ul li .fa-check{
+    color: #4caf50;
+}
+
+.option ul li .fa-times{
+    color: #f44336;
+}
+
+.column a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #68f788;
+    color: #fff;
+    margin: 20px 0 10px;
+    display: inline-block;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.column:nth-child(2) .title,
+.column:nth-child(2) a {
+    background: #ffd761;
+}
+
+
+.column:nth-child(3) .title,
+.column:nth-child(3) a {
+    background: #ff7878;
+}
+
+@media screen and (max-width: 1100px) { 
+    .container {
+        width: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .column {
+        min-width: 310px;    
+    }
+
+    .column:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .column:nth-child(3) {
+        margin-top: 20px;
+    }
+}
