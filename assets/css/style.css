@@ -1,0 +1,350 @@
+@import url(config.css);
+
+/*#region Configurações Genéricas*/
+body,
+p,
+a,
+ul, h1, h2 {
+    margin: unset;
+    font-family: var(--font-family);
+    color: var(--text-primary);
+}
+
+::selection {
+    background-color: var(--secondary-color-hover);
+
+}
+
+main {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.subtitle {
+    margin-bottom: 16px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.txt-highlight {
+    color: var(--primary-color);
+}
+
+.btn {
+    display: block;
+    max-width: 160px;
+    text-align: center;
+    border-radius: var(--default-radius);
+    padding: 6px 12px;
+    text-decoration: unset;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: #FFF;
+
+    &:is(:active, :focus, :hover) {
+        background-color: var(--primary-color-hover);
+    }
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+
+    &:is(:active, :focus, :hover) {
+        background-color: var(--secondary-color-hover);
+        color: var(--secondary-color);
+    }
+}
+
+.container {
+    padding: 16px 16%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px 12%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 16px 8%;
+    }
+}
+
+/*#endregion Configurações Genéricas*/
+
+/*#region Header*/
+#header {
+    border-bottom: 1px solid var(--neutral-color);
+
+    .link {
+        padding-bottom: 2px;
+        text-decoration: unset;
+
+        &:is(:active, :focus, :hover)  {
+            border-bottom: 2px solid var(--primary-color);
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+            max-width: 200px;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .list {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            padding: unset;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #header {
+        .container {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            flex-direction: unset;
+
+            .logo {
+                margin-bottom: unset;
+            }
+        }
+    }
+}
+/*#endregion Header*/
+
+/*#region Footer*/
+#footer {
+    border-top: 1px solid var(--neutral-color);
+    width: 100%;
+
+    .content {
+        padding-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .links {
+            display: flex;
+            gap: 48px;
+
+            .list {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                text-align: end;
+                list-style: none;
+                padding: unset;
+
+                .link {
+                    text-decoration: unset;
+
+                    &:hover {
+                        border-bottom: 2px solid var(--primary-color);
+                    }
+                }
+            }
+        }
+
+        .logo {
+            max-width: 200px;
+            width: 100%;
+        }
+    }
+
+    .credits {
+        text-align: end;
+        border-top: 1px solid var(--neutral-color);
+        padding-top: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    #footer .content {
+        flex-direction: column;
+
+        .links .list {
+            margin-top: 16px;
+            text-align: center;
+        }
+    }
+}
+
+/*#endregion Footer*/
+
+/*#region Banner*/
+#banner {
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    justify-content: center;
+    border-radius: var(--default-radius);
+    gap: 8px;
+    border: 1px solid var(--neutral-color);
+
+    h1,
+    p {
+        color: #fff;
+    }
+}
+
+/*#endregion Banner*/
+
+/*#region Projetos*/
+#projects {
+    .btn {
+        margin: 8px auto 8px;
+    }
+
+    .projects-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        .project {
+            width: calc(25% - 8px);
+            border-radius: var(--default-radius);
+            background-color: #fff;
+            border: 1px solid var(--neutral-color);
+            justify-content: space-between;
+
+            .title {
+                text-align: center;
+                padding: 4px 8px;
+            }
+
+            .description {
+                padding: 4px 8px 4px;
+                display: block;
+                width: auto;
+
+            }
+
+            .image {
+                max-width: 100%;
+                border-radius: var(--default-radius) var(--default-radius) 0 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 425px) {
+    #projects {
+        .projects-list .project {
+            width: calc(50% - 7px);
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #projects {
+        .projects-list .project {
+            width: 100%;
+        }
+    }
+}
+
+/*#endregion Projetos*/
+
+/*#region Sobre Mim*/
+#about {
+    display: flex;
+    gap: 32px;
+
+    .btn {
+        margin-top: 16px;
+    }
+
+    .image {
+        width: 100%;
+        filter: brightness(1.2);
+        border-radius: var(--default-radius);
+        max-width: 360px;
+        height: max-content;
+    }
+}
+
+@media (max-width: 991px) {
+    #about {
+        flex-direction: column;
+
+        .image {
+            display: none;
+        }
+    }
+}
+
+/*#endregion Sobre Mim*/
+
+/*#region Perfil*/
+#profile {
+    display: flex;
+    gap: 32px;
+
+    .subtitle {
+        font-size: 16px;
+        color: #828282;
+        margin: 8px 0 16px;
+    }
+
+    .btn {
+        margin-top: 16px;
+    }
+
+    img {
+        width: 100%;
+        filter: brightness(1.2);
+        border-radius: var(--default-radius);
+        max-width: 360px;
+        height: max-content;
+    }
+}
+
+@media (max-width: 1199px) {
+    #profile {
+        flex-direction: column;
+    }
+}
+/*#endregion Perfil*/
+
+/*#region Contato*/
+#contact {
+    .link {
+        text-decoration: underline;
+    }
+}
+
+/*#endregion Contato*/

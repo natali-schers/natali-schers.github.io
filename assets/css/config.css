@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #480061;
+    --primary-color-hover: #260033;
+    --secondary-color: #480061;
+    --secondary-color-hover: #e492ff3a;
+    --default-radius: 4px;
+    --font-family: "Inter", sans-serif;
+    --neutral-color: #dbdbdb;
+    --text-primary: rgb(51 49 55);
+}
