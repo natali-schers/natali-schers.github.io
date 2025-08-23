@@ -31,6 +31,7 @@
             <div class="hidden md:flex space-x-8">
                 <a href="#inicio" class="text-gray-300 hover:text-white transition-colors">Início</a>
                 <a href="#experiencia" class="text-gray-300 hover:text-white transition-colors">Experiência</a>
+                <a href="#projetos" class="text-gray-300 hover:text-white transition-colors">Projetos</a>
                 <a href="#contato" class="text-gray-300 hover:text-white transition-colors">Contato</a>
             </div>
         </nav>
@@ -48,8 +49,11 @@
                         Desenvolvedora Full Stack
                     </h2>
 
-                    <a class="inline-block mb-5 px-6 py-3 bg-pink-accent hover:bg-pink-600 text-white font-semibold rounded-lg transition-colors" href="https://www.linkedin.com/in/natali-schers/" target="_blank">Entre em contato</a>
-                    <a class="inline-block mb-5 px-6 py-3 border-2 border-pink-accent bg-white hover:bg-pink-200 text-pink-accent font-semibold rounded-lg transition-colors" href="https://docs.google.com/document/d/1Xf_ThWsAmtVhmRojztt7_TsJYU1UcKwVhJ46XJgWO7k/edit?usp=sharing" target="_blank">Acesse meu currículo</a>
+                    <a class="inline-block mb-5 px-6 py-3 border-2 border-pink-accent bg-pink-accent hover:bg-pink-600 text-white font-semibold rounded-lg transition-colors"
+                        href="https://www.linkedin.com/in/natali-schers/" target="_blank">Entre em contato</a>
+                    <a class="inline-block mb-5 px-6 py-3 border-2 border-pink-accent bg-white hover:bg-pink-200 text-pink-accent font-semibold rounded-lg transition-colors"
+                        href="https://docs.google.com/document/d/1Xf_ThWsAmtVhmRojztt7_TsJYU1UcKwVhJ46XJgWO7k/edit?usp=sharing"
+                        target="_blank">Acesse meu currículo</a>
 
                     <!-- Tech Stack Pills -->
                     <div class="flex flex-wrap gap-3">
@@ -95,9 +99,9 @@
                 <div class="space-y-6">
                     <!-- Current Position -->
                     <div class="bg-navy p-6 rounded-lg border border-gray-600">
-                        <div class="flex justify-between items-start mb-3">
+                        <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold">Desenvolvedora Jr</h3>
-                            <span class="text-pink-accent text-sm flex items-center">
+                            <span class="text-white-999 text-sm flex items-center">
                                 <span class="w-2 h-2 bg-pink-accent rounded-full mr-2"></span>
                                 2023 - Presente
                             </span>
@@ -111,9 +115,9 @@
 
                     <!-- Previous Position -->
                     <div class="bg-navy p-6 rounded-lg border border-gray-600">
-                        <div class="flex justify-between items-start mb-3">
+                        <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold">Estagiária</h3>
-                            <span class="text-pink-accent text-sm flex items-center">
+                            <span class="text-white-999 text-sm flex items-center">
                                 <span class="w-2 h-2 bg-pink-accent rounded-full mr-2"></span>
                                 2021 - 2023
                             </span>
@@ -122,6 +126,90 @@
                         <p class="text-gray-300 text-sm">
                             Manutenção de código legado, suporte e facelift de interfaces antigas
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projetos" class="py-16 lg:py-24">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Projetos</h2>
+                <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                    Alguns dos projetos que desenvolvi utilizando diferentes tecnologias e abordagens
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div
+                    class="bg-navy p-6 rounded-lg border border-gray-600 hover:border-pink-accent transition-colors group">
+                    <div class="mb-4">
+                        <div
+                            class="w-full h-48 bg-gradient-to-br from-blue-900/20 to-blue-300/20 rounded-lg mb-4 flex items-center justify-center">
+                            <div class="text-4xl">✉️</div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-pink-accent transition-colors">Newsletter
+                        </h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Newsletter criada exercício prático para aprender e explorar os recursos do Tailwind. </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">HTML5</span>
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">Tailwind CSS</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://newsletter-three-chi.vercel.app/"
+                                class="text-pink-accent hover:text-pink-300 text-sm transition-colors">Ver Projeto</a>
+                            <a href="https://github.com/natali-schers/newsletter"
+                                class="text-gray-400 hover:text-white text-sm transition-colors">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="bg-navy p-6 rounded-lg border border-gray-600 hover:border-pink-accent transition-colors group">
+                    <div class="mb-4">
+                        <div
+                            class="w-full h-48 bg-gradient-to-br from-purple-400/20 to-cyan-500/20 rounded-lg mb-4 flex items-center justify-center">
+                            <div class="text-4xl">👥</div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-pink-accent transition-colors">Organo</h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Projeto de cadastro de colaboradores e times, desenvolvido durante a formação de React da Alura. 
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">React.js</span>
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">CSS3</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://projetoorgano-nu.vercel.app/" class="text-pink-accent hover:text-pink-300 text-sm transition-colors">Ver
+                                Projeto</a>
+                            <a href="https://github.com/natali-schers/organo" class="text-gray-400 hover:text-white text-sm transition-colors">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="bg-navy p-6 rounded-lg border border-gray-600 hover:border-pink-accent transition-colors group">
+                    <div class="mb-4">
+                        <div
+                            class="w-full h-48 bg-gradient-to-br from-orange-500/20 to-emerald-500/20 rounded-lg mb-4 flex items-center justify-center">
+                            <div class="text-4xl">⛅</div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-pink-accent transition-colors">Climapp</h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            App de clima que consome uma API e exibe informações como temperatura e data atual, descrição do tempo, umidade, máx e min e previsão para os próximos dias.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">React.js</span>
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">CSS3</span>
+                            <span class="px-2 py-1 bg-dark-blue text-xs rounded border border-gray-600">Geolocation API</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/natali-schers/climapp" class="text-gray-400 hover:text-white text-sm transition-colors">GitHub</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -257,6 +345,7 @@
                     <ul class="space-y-2">
                         <li><a href="#inicio" class="text-gray-300 hover:text-white transition-colors">Início</a></li>
                         <li><a href="#experiencia" class="text-gray-300 hover:text-white transition-colors">Experiência</a></li>
+                        <li><a href="#projetos" class="text-gray-300 hover:text-white transition-colors">Projetos</a></li>
                         <li><a href="#contato" class="text-gray-300 hover:text-white transition-colors">Contato</a></li>
                     </ul>
                 </div>
