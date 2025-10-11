@@ -1,0 +1,8 @@
+name: "Say Hi"
+on: [push]
+jobs: 
+    say-hi:
+        name: "Print hi on log"
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hi, developer!"
