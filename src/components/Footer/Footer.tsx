@@ -1,28 +1,8 @@
-import { type ReactNode, createElement } from "react";
 import './Footer.css';
 import { GrLinkedinOption } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
 import { TbBrandGithubFilled } from "react-icons/tb";
-
-function ActionLink({
-  href,
-  className = "",
-  children,
-  label,
-  target = ""
-}: {
-  href: string;
-  className?: string;
-  children: ReactNode;
-  label?: string;
-  target?: string;
-}) {
-  return createElement(
-    "a",
-    { href, className, "aria-label": label, target },
-    children,
-  );
-}
+import ActionLink from "../ActionLink/ActionLink";
 
 export default function Footer() {
   return (

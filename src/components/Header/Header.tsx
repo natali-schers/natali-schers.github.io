@@ -1,26 +1,6 @@
-import { type ReactNode, createElement } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import './Header.css';
-
-function ActionLink({
-  href,
-  className = "",
-  children,
-  label,
-  target = ""
-}: {
-  href: string;
-  className?: string;
-  children: ReactNode;
-  label?: string;
-  target?: string;
-}) {
-  return createElement(
-    "a",
-    { href, className, "aria-label": label, target },
-    children,
-  );
-}
+import ActionLink from "../ActionLink/ActionLink";
 
 export default function Header() {
   return (

@@ -1,0 +1,30 @@
+.hero {
+  width: min(100% - 3rem, 78rem);
+  margin-inline: auto;
+  min-height: 20rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.actions {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.badges {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.badges span {
+    color: var(--text);
+    border-radius: 24px;
+    padding: 4px 16px;
+    background-color: #ffffff1a;
+}
