@@ -7,15 +7,17 @@ function ActionLink({
   className = "",
   children,
   label,
+  target = ""
 }: {
   href: string;
   className?: string;
   children: ReactNode;
   label?: string;
+  target?: string;
 }) {
   return createElement(
     "a",
-    { href, className, "aria-label": label },
+    { href, className, "aria-label": label, target },
     children,
   );
 }
