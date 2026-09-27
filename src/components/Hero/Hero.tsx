@@ -33,7 +33,7 @@ export default function Hero() {
 
       <div className="badges">
         {technologies.map((technology) => (
-          <span>{technology}</span>
+          <span key={technology}>{technology}</span>
         ))}
       </div>
     </section>
