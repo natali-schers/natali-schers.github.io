@@ -1,5 +1,5 @@
 :root {
-  --text: #6b6375;
+  --text: #252525;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -32,7 +32,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
+    --text: #f4f4f4;
     --text-h: #f3f4f6;
     --bg: #16171d;
     --border: #2e303a;
@@ -51,7 +51,7 @@
 }
 
 #root {
-  width: 1126px;
+  width: 1200px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -82,6 +82,7 @@ h1 {
     margin: 20px 0;
   }
 }
+
 h2 {
   font-size: 24px;
   line-height: 118%;
@@ -91,21 +92,12 @@ h2 {
     font-size: 20px;
   }
 }
+
 p {
   margin: 0;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+a {
+  text-decoration: none;
+  color: var(--text);
 }

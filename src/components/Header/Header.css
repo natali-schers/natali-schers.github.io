@@ -1,0 +1,61 @@
+.topbar {
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+  z-index: 10;  
+  width: min(100% - 3rem, 78rem);
+  margin-inline: auto;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+.brand-name {
+  font-size: 0.95rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.nav-links a,
+.text-link {
+  transition: color 180ms ease;
+}
+
+.nav-links a:hover,
+.text-link:hover {
+  color: var(--acid-dark);
+}
+
+.header-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.header-cta svg,
+.text-link svg,
+.button svg {
+  transition: transform 180ms ease;
+}
+
+.header-cta:hover svg,
+.text-link:hover svg,
+.button:hover svg {
+  transform: translateX(0.25rem);
+}
