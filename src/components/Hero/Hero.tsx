@@ -26,8 +26,8 @@ export default function Hero() {
           <span className="">Enviar E-mail</span>
         </ActionLink>
 
-        <ActionLink className="secondary-button" href="#" label="Ver currículo" target="_blank">
-          <span className="">Ver Currículo</span>
+        <ActionLink className="secondary-button" href="#" label="Acessar currículo" target="_blank">
+          <span className="">Acessar Currículo</span>
         </ActionLink>
       </div>
 

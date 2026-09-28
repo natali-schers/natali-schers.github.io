@@ -9,7 +9,7 @@ export default function Header() {
         <span className="brand-name">Natali Schers</span>
       </ActionLink>
       <nav aria-label="Navegação principal" className="nav-links">
-        <ActionLink href="#about">Sobre</ActionLink>
+        <ActionLink href="#about">Sobre Mim</ActionLink>
         <ActionLink href="#projects">Projetos</ActionLink>
         <ActionLink href="#experience">Experiência</ActionLink>
       </nav>
