@@ -1,0 +1,51 @@
+.projects {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.project-list {
+  display: grid;
+  gap: 4rem;
+  width: min(100% - 3rem, 78rem);
+  margin-inline: auto;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.project-card:nth-child(even) .project-visual {
+  order: 2;
+}
+
+.project-card:nth-child(even) .project-info {
+  order: 1;
+}
+
+.project-info .subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: unset;
+}
+
+.project-visual img {
+  width: 100%;
+}
+
+.stack-list {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 20px;
+  justify-content: center;
+}
+
+.stack-list span {
+  color: var(--text);
+  border-radius: 24px;
+  font-size: 0.8rem;
+  padding: 4px 16px;
+  background-color: #ffffff1a;
+}
