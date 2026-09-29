@@ -1,0 +1,61 @@
+.experience {
+  background: var(--accent-bg);
+  color: var(--white);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.experience-layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  margin: auto;
+  width: min(100% - 3rem, 78rem);
+}
+
+.experience-intro p {
+  max-width: 27rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  text-align: left;
+}
+
+.timeline {
+  border-top: 1px solid var(--line);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.timeline-period {
+  padding-top: 0.2rem;
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+}
+
+.timeline-item h3 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.company {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--acid-dark);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.timeline-item p {
+  margin: 1rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
