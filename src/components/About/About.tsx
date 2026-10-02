@@ -23,8 +23,8 @@ export default function About() {
               em qualquer navegador e dispositivo.
             </p>
             <p>
-              Há 5 anos atuo no desenvolvimento de e-commerces, portais de
-              atendimento e plataformas de gamificação, sempre equilibrando as
+              Há 5 anos atuo na criação e evolução de e-commerces, portais de
+              atendimento e gamificação de plataformas, sempre equilibrando as
               necessidades do cliente com um código limpo, estável e pronto para
               crescer. Meu trabalho vai além do desenvolvimento: mantenho a
               documentação atualizada e acompanho as atividades até a publicação

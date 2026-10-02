@@ -4,24 +4,24 @@ import "./Experience.css";
 const experiences = [
   {
     period: "11/2023 — Agora",
-    role: "Desenvolvedora Junior",
+    role: "Desenvolvedora Júnior",
     company: "Tecnologia Única",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna quam, vulputate ac consectetur vitae, imperdiet ac massa. ",
+      "Participo do refinamento de novos projetos, alinhando design, back-end e negócios antes do desenvolvimento para que o front-end comece com requisitos claros e sem retrabalho.",
   },
   {
     period: "01/2023 — 10/2023",
-    role: "Desenvolvedora Pré-Junior",
+    role: "Desenvolvedora Pré-Júnior",
     company: "Tecnologia Única",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna quam, vulputate ac consectetur vitae, imperdiet ac massa. ",
+      "Atuei na refatoração de código defasado e na modernização de interfaces antigas, deixando as telas mais consistentes e fáceis de manter. Foi nessa fase que o front-end se tornou meu foco.",
   },
   {
     period: "07/2021 — 12/2022",
     role: "Estagiária",
     company: "Tecnologia Única",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna quam, vulputate ac consectetur vitae, imperdiet ac massa.",
+      "Atuei na sustentação de sistemas legados, corrigindo bugs e evoluindo código existente sem comprometer o que já estava funcionando em produção.",
   },
 ];
 
@@ -32,13 +32,18 @@ export default function Experience() {
       <div className="experience-layout">
         <div className="experience-intro">
           <p>
-            Comecei minha jornada profissional em 2021, quando tive a oportunidade de estagiar na Tecnologia Única. Durante esse período, trabalhei em diversos projetos focada na manutenção de código legado, suporte e facelift de interfaces antigas, o que me proporcionou uma base sólida para minha carreira.
-
+            Comecei minha trajetória profissional em 2021, como estagiária na
+            Tecnologia Única, atuando na sustentação de sistemas e na manutenção
+            de código legado. Essa fase me deu uma base sólida para entender
+            como um sistema funciona por dentro e como evoluí-lo com segurança.
           </p>
           <br />
           <p>
-            Em 2023, fui promovida a Desenvolvedora Jr e tive a oportunidade de me envolver em projetos mais complexos, onde pude aplicar meus conhecimentos em desenvolvimento, colaborar com a refatoração de código e contribuir com a documentação de features. Essa experiência tem me permitido aprimorar minhas habilidades técnicas e de comunicação, além de me preparar para enfrentar novos desafios na área de desenvolvimento.
-
+            Em 2023, fui promovida a Desenvolvedora Júnior e passei a atuar em
+            projetos mais complexos, a assumir mais responsabilidades e a
+            participar de decisões estratégicas. Hoje, essa experiência me
+            permite aprimorar tanto minhas habilidades técnicas quanto a
+            comunicação com os times de design, back-end e negócios.
           </p>
         </div>
         <div className="timeline">
