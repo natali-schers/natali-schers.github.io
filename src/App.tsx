@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Credentials from "./components/Credentials/Credentials";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Projects />
         <Experience />
+        <Credentials />
       </main>
 
       <Footer />
