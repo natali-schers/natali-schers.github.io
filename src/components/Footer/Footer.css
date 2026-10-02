@@ -19,11 +19,11 @@ footer {
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  border: 1px solid var(--text);
+  border: 1px solid var(--color-text);
   border-radius: 50%;
   transition: background-color 160ms ease;
 }
 
 .social-links a:hover {
-  background-color: var(--accent-bg);
+  background-color: var(--color-accent-soft);
 }

@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--color-line);
   position: relative;
   z-index: 10;  
   width: min(100% - 3rem, 78rem);

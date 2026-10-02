@@ -23,8 +23,8 @@
 }
 
 .badges span {
-    color: var(--text);
+    color: var(--color-text);
     border-radius: 24px;
     padding: 4px 16px;
-    background-color: var(--neutral);
+    background-color: var(--color-surface-muted);
 }

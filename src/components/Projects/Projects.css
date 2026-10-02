@@ -43,9 +43,9 @@
 }
 
 .stack-list span {
-  color: var(--text);
+  color: var(--color-text);
   border-radius: 24px;
   font-size: 0.8rem;
   padding: 4px 16px;
-  background-color: var(--neutral);
+  background-color: var(--color-surface-muted);
 }

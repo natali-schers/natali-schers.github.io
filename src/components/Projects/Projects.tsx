@@ -38,7 +38,7 @@ export default function Projects() {
                       <span key={item}>{item}</span>
                     ))}
                   </div>
-                  <ActionLink className="secondary-button" href={project.repository}>
+                  <ActionLink className="secondary-button" href={project.repository} target="_blank">
                     Acessar repositório no GitHub
                   </ActionLink>
                 </div>

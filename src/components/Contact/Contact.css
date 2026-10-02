@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: var(--accent);
+  background: var(--color-accent);
   padding: 3rem 0;
 
 }
@@ -35,15 +35,15 @@
 
 .contact-button {
   padding: 6px 24px;
-  border: 1px solid var(--button-highlight);
-  color: var(--buttont);
-  background-color: #FFFFFF;
+  border: 1px solid var(--color-button-foreground);
+  color: var(--color-text);
+  background-color: var(--color-page);
   border-radius: 24px;
   display: inline-block;
   font-weight: 400;
   transition: background-color 160ms ease;
 
   &:is(:hover, :focus) {
-    background-color: var(--accent-bg);
+    background-color: var(--color-accent-soft);
   }
 }

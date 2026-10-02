@@ -1,29 +1,32 @@
 :root {
-  /* Cores de texto e superfícies */
-  --text: #252525;
-  --text-h: #08060d;
-  --bg: #fff;
-  --neutral: #efefef;
-  --border: #e5e4e7;
-  --line: #252525;
+  /* Cores base */
+  --color-text: #252525;
+  --color-heading: #08060d;
+  --color-page: #fff;
+  --color-surface-muted: #efefef;
+  --color-border-subtle: #e5e4e7;
+  --color-line: #252525;
 
   /* Cores de destaque */
-  --accent: #7993fd;
-  --accent-bg: #ebefff;
+  --color-accent: #7993fd;
+  --color-accent-soft: #ebefff;
 
-  /* Cores dos botões */
-  --button: #252525;
-  --button-highlight: #f4f4f4;
+  /* Cores dos botoes */
+  --color-button-primary-bg: #252525;
+  --color-button-foreground: #f4f4f4;
 
   /* Tipografia */
-  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-heading: system-ui, "Segoe UI", Roboto, sans-serif;
 
-  font: 18px/145% var(--sans);
+  /* Forma */
+  --radius-card: 0.5rem;
+
+  font: 18px/145% var(--font-body);
   letter-spacing: 0.18px;
   color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
+  color: var(--color-text);
+  background: var(--color-page);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +42,7 @@
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
+  border-inline: 1px solid var(--color-border-subtle);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -53,9 +56,9 @@ body {
 
 h1,
 h2 {
-  font-family: var(--heading);
+  font-family: var(--font-heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: var(--color-heading);
 }
 
 h1 {
@@ -83,33 +86,33 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--text);
+  color: var(--color-text);
 }
 
 .primary-button {
   padding: 6px 24px;
-  border: 1px solid var(--button-highlight);
-  color: var(--button-highlight);
-  background-color: var(--button);
+  border: 1px solid var(--color-button-foreground);
+  color: var(--color-button-foreground);
+  background-color: var(--color-button-primary-bg);
   border-radius: 24px;
   display: inline-block;
   font-weight: 400;
   transition: background-color 160ms ease;
 
   &:is(:hover, :focus) {
-    background-color: var(--accent);
+    background-color: var(--color-accent);
   }
 }
 
 .secondary-button {
   padding: 6px 24px;
-  border: 1px solid var(--button);
-  color: var(--button);
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
   border-radius: 24px;
   display: inline-block;
   transition: background-color 160ms ease;
 
   &:is(:hover, :focus) {
-    background-color: var(--accent-bg);
+    background-color: var(--color-accent-soft);
   }
 }

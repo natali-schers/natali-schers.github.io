@@ -3,7 +3,7 @@
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  color: var(--text);
+  color: var(--color-text);
   font-size: 0.80rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -16,7 +16,7 @@
   place-items: center;
   width: 1.8rem;
   aspect-ratio: 1;
-  border: 1px solid var(--line);
+  border: 1px solid var(--color-line);
   border-radius: 50%;
   font-size: 0.60rem;
 }
