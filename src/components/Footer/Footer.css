@@ -27,3 +27,13 @@ footer {
 .social-links a:hover {
   background-color: var(--color-accent-soft);
 }
+
+@media (max-width: 600px) {
+  footer {
+    min-height: 7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: 1.5rem;
+  }
+}

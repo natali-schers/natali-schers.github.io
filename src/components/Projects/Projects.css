@@ -37,6 +37,7 @@
 
 .stack-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin: 16px 0 20px;
   justify-content: center;
@@ -48,4 +49,20 @@
   font-size: 0.8rem;
   padding: 4px 16px;
   background-color: var(--color-surface-muted);
+}
+
+@media (max-width: 760px) {
+  .project-list {
+    gap: 3rem;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-card:nth-child(even) .project-visual,
+  .project-card:nth-child(even) .project-info {
+    order: initial;
+  }
 }

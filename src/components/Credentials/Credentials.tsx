@@ -142,14 +142,7 @@ export default function Credentials() {
 
   return (
     <section className="credentials section" id="formacao">
-      <SectionLabel number="04">Formação contínua</SectionLabel>
-      <div className="section-top credential-heading">
-        <h2 className="section-heading">Cursos & certificados.</h2>
-        <p>
-          Aprender faz parte do trabalho. Estes são alguns dos caminhos que
-          ajudaram a refinar minha prática.
-        </p>
-      </div>
+      <SectionLabel number="04">Cursos & Certificados</SectionLabel>
 
       <div className="credential-filters">
         <div className="credential-tabs" role="tablist" aria-label="Categorias de formação">

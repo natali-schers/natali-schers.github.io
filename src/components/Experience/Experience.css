@@ -13,7 +13,6 @@
 }
 
 .experience-intro p {
-  max-width: 27rem;
   line-height: 1.7;
   text-align: left;
 }
@@ -53,4 +52,19 @@
   margin: 1rem 0 0;
   font-size: 0.92rem;
   line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .experience-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1.25rem 0;
+  }
 }

@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <h1>Natali Schers</h1>
-      <h2>Desenvolvedora Full Stack</h2>
+      <h2>Desenvolvedora Front-End</h2>
 
       <div className="actions">
         <ActionLink

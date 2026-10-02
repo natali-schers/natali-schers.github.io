@@ -1,5 +1,5 @@
 .topbar {
-  height: 5.5rem;
+  min-height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,4 +52,40 @@
 .text-link:hover svg,
 .button:hover svg {
   transform: translateX(0.25rem);
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    height: auto;
+    flex-wrap: wrap;
+    padding-block: 1rem;
+    row-gap: 8px;
+  }
+
+  .nav-links {
+    order: 3;
+    flex-basis: 100%;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-top: 0.75rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .topbar {
+    width: calc(100% - 2rem);
+  }
+
+  .brand-name {
+    font-size: 0.85rem;
+  }
+
+  .header-cta {
+    font-size: 0.78rem;
+  }
+
+  .nav-links {
+    gap: 0.85rem;
+    font-size: 0.8rem;
+  }
 }
