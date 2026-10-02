@@ -29,7 +29,7 @@
   border-radius: 8%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .about-layout {
     grid-template-columns: 1fr;
     gap: 1.5rem;

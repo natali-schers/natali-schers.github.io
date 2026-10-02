@@ -4,9 +4,9 @@ import SectionLabel from "../SectionLabel/SectionLabel";
 export default function About() {
   return (
     <section className="about section" id="about">
-      <div >
+      <div>
         <div>
-           <SectionLabel number="01">Sobre mim</SectionLabel>
+          <SectionLabel number="01">Sobre mim</SectionLabel>
         </div>
         <div className="about-layout">
           <img
@@ -15,13 +15,27 @@ export default function About() {
           />
           <div className="about-copy">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna quam, vulputate ac consectetur vitae, imperdiet ac massa. Duis semper in libero a lacinia. Nunc elementum velit et odio ornare aliquet. In vehicula fermentum turpis, nec vestibulum nisi aliquet non. Nulla facilisi.
+              Olá, eu sou Natali Schers, desenvolvedora front-end com foco em
+              unir design e código para criar interfaces consistentes e fáceis
+              de manter. Com formação em Web Design e experiência com React.js,
+              Next.js e .NET C#, trabalho de perto com times de design e
+              back-end para garantir que o que foi pensado no Figma funcione bem
+              em qualquer navegador e dispositivo.
             </p>
             <p>
-              Donec justo felis, at lorem at. Class aptent ad litora torquent per conubia nostra, per inceptos himenaeos.Nec accumsan sapien sapien non arcu. Proin gravida nisi magna, sed ullamcorper risus interdum in. Maecenas dignissim felis eu erat fermentum, ac dictum ante commodo.
+              Há 5 anos atuo no desenvolvimento de e-commerces, portais de
+              atendimento e plataformas de gamificação, sempre equilibrando as
+              necessidades do cliente com um código limpo, estável e pronto para
+              crescer. Meu trabalho vai além do desenvolvimento: mantenho a
+              documentação atualizada e acompanho as atividades até a publicação
+              em produção.
             </p>
             <p>
-              Vivamus vulputate egestas nisl, at consequat elit gravida quis. Sed pulvinar sem eget velit elementum, vitae feugiat tellus ornare. Duis tincidunt vulputate lorem, aliquet commodo nibh gravida eget. Aenean ac quam vitae leo viverra pretium quis et odio. Vivamus nec lectus pharetra iaculis ex. Donec et quam non ex condimentum pellentesque.
+              Fora do código, estudo ilustração digital e me dedico ao aprendizado de
+              idiomas, principalmente inglês. Quando sobra um tempinho livre,
+              gosto de explorar tecnologias com as quais tive menos contato,
+              como Flutter (usado no meu projeto Divider) e React Native (usado
+              em projetos da faculdade, como o Ground Control e o Flui).
             </p>
           </div>
         </div>
