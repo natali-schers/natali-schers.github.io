@@ -16,7 +16,7 @@ export default function Contact() {
         Estou sempre aberta a novos desafios e colaborações ;)
       </p>
       <ActionLink
-        className="primary-button"
+        className="contact-button"
         href="mailto:natalischers@gmail.com"
       >
         natalischers@gmail.com

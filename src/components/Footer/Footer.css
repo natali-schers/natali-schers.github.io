@@ -21,10 +21,9 @@ footer {
   place-items: center;
   border: 1px solid var(--text);
   border-radius: 50%;
-  transition: background 180ms ease,
-    color 180ms ease;
+  transition: background-color 160ms ease;
 }
 
 .social-links a:hover {
-  color: var(--text);
+  background-color: var(--accent-bg);
 }

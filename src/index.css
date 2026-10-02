@@ -3,12 +3,13 @@
   --text: #252525;
   --text-h: #08060d;
   --bg: #fff;
+  --neutral: #efefef;
   --border: #e5e4e7;
   --line: #252525;
 
   /* Cores de destaque */
   --accent: #7993fd;
-  --accent-bg: rgba(59, 98, 255, 0.1);
+  --accent-bg: #ebefff;
 
   /* Cores dos botões */
   --button: #252525;
@@ -92,13 +93,23 @@ a {
   background-color: var(--button);
   border-radius: 24px;
   display: inline-block;
+  font-weight: 400;
+  transition: background-color 160ms ease;
+
+  &:is(:hover, :focus) {
+    background-color: var(--accent);
+  }
 }
 
 .secondary-button {
   padding: 6px 24px;
   border: 1px solid var(--button);
   color: var(--button);
-  background-color: var(--button-highlight);
   border-radius: 24px;
   display: inline-block;
+  transition: background-color 160ms ease;
+
+  &:is(:hover, :focus) {
+    background-color: var(--accent-bg);
+  }
 }
