@@ -18,7 +18,6 @@
   aspect-ratio: 1;
   border: 1px solid var(--line);
   border-radius: 50%;
-  color: var(--ink);
   font-size: 0.60rem;
 }
 

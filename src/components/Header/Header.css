@@ -25,7 +25,6 @@
 .nav-links {
   display: flex;
   gap: 2rem;
-  color: var(--ink-soft);
   font-size: 0.88rem;
   font-weight: 500;
 }
@@ -33,11 +32,6 @@
 .nav-links a,
 .text-link {
   transition: color 180ms ease;
-}
-
-.nav-links a:hover,
-.text-link:hover {
-  color: var(--acid-dark);
 }
 
 .header-cta {
