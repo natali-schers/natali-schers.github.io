@@ -29,6 +29,10 @@
   order: 1;
 }
 
+.project-info p {
+  text-align: left;
+}
+
 .project-info .subtitle {
   font-size: 0.9rem;
   font-weight: 400;
