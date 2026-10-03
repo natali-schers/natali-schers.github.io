@@ -5,7 +5,7 @@
   justify-content: space-between;
   border-bottom: 1px solid var(--color-line);
   position: relative;
-  z-index: 10;  
+  z-index: 10;
   width: min(100% - 3rem, 78rem);
   margin-inline: auto;
 }
@@ -27,6 +27,15 @@
   gap: 2rem;
   font-size: 0.88rem;
   font-weight: 500;
+}
+
+.nav-links a {
+  border-bottom: 3px solid transparent;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid var(--color-accent);
+  transition: border-color 180ms ease;
 }
 
 .nav-links a,

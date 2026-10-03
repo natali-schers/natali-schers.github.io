@@ -23,11 +23,11 @@ export default function Hero() {
           href="mailto:natalischers@gmail.com"
           label="Enviar e-mail"
         >
-          <span className="">Enviar E-mail</span>
+          Enviar E-mail
         </ActionLink>
 
-        <ActionLink className="secondary-button" href="#" label="Acessar currículo" target="_blank">
-          <span className="">Acessar Currículo</span>
+        <ActionLink className="secondary-button" href="https://docs.google.com/document/d/1-USbGBdW7fBtX8kdIBC3kSPEE1YhucVc/edit?usp=sharing&ouid=107287130595669597948&rtpof=true&sd=true" label="Acessar currículo" target="_blank">
+          Acessar Currículo
         </ActionLink>
       </div>
 
