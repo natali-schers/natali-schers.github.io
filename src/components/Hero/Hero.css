@@ -1,7 +1,7 @@
 .hero {
   width: min(100% - 3rem, 78rem);
   margin-inline: auto;
-  min-height: 20rem;
+  min-height: 24rem;
   display: flex;
   align-items: start;
   justify-content: center;

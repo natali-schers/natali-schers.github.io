@@ -108,6 +108,7 @@ a {
 
   &:is(:hover, :focus) {
     background-color: var(--color-accent);
+    cursor: pointer;
   }
 }
 
@@ -121,5 +122,6 @@ a {
 
   &:is(:hover, :focus) {
     background-color: var(--color-accent-soft);
+    cursor: pointer;
   }
 }
