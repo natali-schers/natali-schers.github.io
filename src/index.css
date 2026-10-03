@@ -8,8 +8,8 @@
   --color-line: #252525;
 
   /* Cores de destaque */
-  --color-accent: #7993fd;
-  --color-accent-soft: #e1e6fb;
+  --color-accent: #718cf9;
+  --color-accent-soft: #e7ecff;
 
   /* Cores dos botoes */
   --color-button-primary-bg: #252525;
@@ -125,6 +125,16 @@ a {
 
   &:is(:hover, :focus) {
     background-color: var(--color-accent-soft);
+    cursor: pointer;
+  }
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--color-accent);
+
+  &:is(:hover, :focus) {
+    color: var(--color-text);
     cursor: pointer;
   }
 }

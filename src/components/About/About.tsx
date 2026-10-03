@@ -1,5 +1,6 @@
 import "./About.css";
 import SectionLabel from "../SectionLabel/SectionLabel";
+import ActionLink from "../ActionLink/ActionLink";
 
 export default function About() {
   return (
@@ -34,8 +35,8 @@ export default function About() {
               Fora do código, estudo ilustração digital e me dedico ao aprendizado de
               idiomas, principalmente inglês. Quando sobra um tempinho livre,
               gosto de explorar tecnologias com as quais tive menos contato,
-              como Flutter (usado no meu projeto Divider) e React Native (usado
-              em projetos da faculdade, como o Ground Control e o Flui).
+              como Flutter (usado no meu projeto <ActionLink className="link" href="https://github.com/natali-schers/divider-app" target="_blank" label="Acessar repositório Divider">Divider</ActionLink>) e React Native (usado
+              em projetos da faculdade, como o <ActionLink className="link" href="https://github.com/web-design-on/ground-control" target="_blank" label="Acessar repositório Ground Control">Ground Control</ActionLink> e o <ActionLink className="link" href="https://github.com/natali-schers/flui-app" target="_blank" label="Acessar repositório Flui">Flui</ActionLink>).
             </p>
           </div>
         </div>
