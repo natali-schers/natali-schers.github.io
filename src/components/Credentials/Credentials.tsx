@@ -48,7 +48,7 @@ const credentialCategories: CredentialCategory[] = [
     subcategories: [
       {
         id: "front",
-        label: "Frontend",
+        label: "Front-end",
         credentials: [
           {
             year: "2025",
@@ -61,7 +61,7 @@ const credentialCategories: CredentialCategory[] = [
       },
       {
         id: "back",
-        label: "Backend",
+        label: "Back-end",
         credentials: [
           {
             year: "2026",
