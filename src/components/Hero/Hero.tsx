@@ -6,9 +6,11 @@ const technologies = [
   "CSS",
   "JS",
   "SQLServer",
-  "C#",
+  ".NET C#",
   "Git",
-  "React.JS",
+  "Figma",
+  "React.js",
+  "Next.js",
 ];
 
 export default function Hero() {
