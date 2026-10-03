@@ -11,7 +11,7 @@ export default function About() {
         </div>
         <div className="about-layout">
           <img
-            src="https://natali-schers.github.io/images/natali-schers.png"
+            src="../natali-schers.jpeg"
             className="profile-picture"
           />
           <div className="about-copy">
