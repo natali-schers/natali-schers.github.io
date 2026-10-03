@@ -32,8 +32,12 @@
 @media (max-width: 600px) {
     .hero {
         width: min(100% - 3rem, 78rem);
-        min-height: 18rem;
+        min-height: 22rem;
         gap: 12px;
+    }
+
+    .hero .primary-button, .hero .secondary-button {
+        font-size: 14px;
     }
 
     .badges {
