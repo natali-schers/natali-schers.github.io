@@ -39,6 +39,7 @@ const credentialCategories: CredentialCategory[] = [
         title: "Desenvolvimento de Sistemas",
         source: "Senac",
         type: "Técnico",
+        imageName: "desenvolvimento-de-sistemas.png"
       },
     ],
   },
@@ -94,7 +95,7 @@ const credentialCategories: CredentialCategory[] = [
         year: "2025 - 2026",
         title: "Web Design",
         source: "FIAP",
-        type: "Graduação",
+        type: "Tecnólogo",
       },
     ],
   },
